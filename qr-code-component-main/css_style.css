@@ -1,0 +1,30 @@
+body {
+    background-color: lightgrey;
+}
+
+.container{
+    background-color: white;
+    display: block;
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.img {
+   border-radius: 20px;
+}
+
+.texte {
+    border: solid;
+    border-color: black;
+    margin-top: 24px;
+    max-width: 100%;
+  
+}
