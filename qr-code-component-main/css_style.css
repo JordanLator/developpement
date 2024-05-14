@@ -4,7 +4,7 @@ body {
   
 }
 
-.container{
+.section{
 
     background-color: white;
     display: block;
@@ -33,7 +33,7 @@ img {
 }
 
 
-.contenue{
+.texte{
     margin-top: 24px;
     height: 129px;
     width: 288px;
