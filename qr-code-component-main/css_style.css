@@ -9,12 +9,13 @@ body {
     background-color: white;
     display: block;
     min-width: fit-content;
+    min-height: fit-content;
     max-width: 100%;
     border-radius: 20px;
     padding: 16px;
     width: fit-content;
     max-width: fit-content;
-    min-height: fit-content;
+    max-height: fit-content;
     text-align: center;
     align-items: center;
     font-weight: 100%;
