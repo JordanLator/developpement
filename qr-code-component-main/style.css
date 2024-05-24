@@ -1,0 +1,68 @@
+
+body {
+    background-color: #D5E1EF; 
+    font-family: "Outfit", sans-serif;
+    display: flex; /* Flexbox pour alignement */
+    align-items: center; /* Alignement vertical */
+    justify-content: center; /* Alignement horizontal */
+    font-size: 15px; 
+    margin: 0; 
+    height: 100vh; /* Prendre toute la hauteur de la fenêtre */
+}
+
+
+.section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 16px;
+    width: 90%; /* Largeur relative pour adaptabilité */
+    max-width: 400px;
+    box-sizing: border-box; /* Inclure le padding dans la largeur */
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.texte {
+    width: 100%; /* Largeur de texte adaptative */
+    max-width: 288px;
+}
+
+/* Style des titres h1 */
+.h1 {
+    font-weight: 700;
+    color: #1F314F;
+    margin-top: 24px;
+    font-size: 25px;
+    line-height: 1.2em; /* Hauteur de ligne */
+}
+
+.h3 {
+    color: #7D889E;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.2em;
+    padding-bottom: 20px;
+}
+
+/* Styles responsives pour mobile */
+@media (max-width: 600px) {
+    .section {
+        padding: 10px; /* Réduire le padding sur mobile */
+    }
+
+}
+
+/* Styles responsives pour tablette */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .section {
+        width: 80%; /* Ajuster la largeur pour les tablettes */
+    }
+}
